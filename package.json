@@ -14,8 +14,9 @@
   "scripts": {
     "watch": "npm-watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss styles.css -o public/styles.css",
+    "build": "postcss styles.css -output public",
     "dev": "concurrently \"npm run build && live-server public --port=8080\" \"npm run watch\""
+   
   },
   "keywords": [],
   "author": "",
